@@ -1,0 +1,21 @@
+# Build trees
+build/
+build-*/
+cmake-build-*/
+out/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Results: scratch runs and Slurm logs stay local. Copy the runs cited in the
+# report into results/final/ (tracked) so every figure can be regenerated.
+results/*.csv
+results/logs/*
+!results/logs/.gitkeep
+results/figures/
+
+# Submission package
+Final_Project.zip
